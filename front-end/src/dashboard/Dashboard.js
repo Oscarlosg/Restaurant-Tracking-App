@@ -5,8 +5,7 @@ import ListReservations from "./ListReservations";
 import { previous, next, today } from "../utils/date-time";
 import ListTables from "../tables/Tables";
 import useQuery from "../utils/useQuery";
-import { FcPrevious, FcNext } from "react-icons/fc";
-import { MdToday } from "react-icons/md";
+
 
 /**
  * Defines the dashboard page.
@@ -98,8 +97,7 @@ function Dashboard({
               setDate(today());
             }}
           >
-            Today {"\n"}
-            <MdToday />
+            Today
           </button>
         </div>
         <button
@@ -108,7 +106,6 @@ function Dashboard({
             setDate(previous(date));
           }}
         >
-          <FcPrevious /> {"\n"}
           Previous Date
         </button>
         <button
@@ -117,8 +114,7 @@ function Dashboard({
             setDate(next(date));
           }}
         >
-          Next Date {"\n"}
-          <FcNext />
+          Next Date
         </button>
       </div>
       <div className="border rounded pr-4 pt-4 pb-4 bg-light">
