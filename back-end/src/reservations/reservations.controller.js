@@ -202,6 +202,7 @@ module.exports = {
     bodyDataHas("reservation_date"),
     bodyDataHas("reservation_time"),
     bodyDataHas("people"),
+    isNumber("mobile_number"),
     isPeopleNumber,
     isNumber("reservation_date"),
     isTime("reservation_time"),
