@@ -9,7 +9,7 @@ function Tables({ tables, loadDashboard }) {
         .then(() => loadDashboard())
         .catch((error) => console.log("error", error));
     }
-  }
+  } //today cannot be booked for some reason
 
   function mapTables(tables) {
     return tables.map((table, index) => (

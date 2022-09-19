@@ -208,4 +208,4 @@ module.exports = {
     asyncErrorBoundary(update),
   ],
   updateStatus: [reservationExists, isFinished, validStatus, asyncErrorBoundary(update)], 
-};
+};//comment
