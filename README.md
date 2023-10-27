@@ -33,7 +33,8 @@ Searching a Reservation by Phone Number: Upon clicking the search button on the 
 
 # Installation
 1. Run npm install under the root folder to install project dependencies.
-1. Run npm run start to start your server
+1. open one terminal in client and a separate one in server
+1. run 'npm start' in server folder first, then run 'npm start' in client. 
 
 ## Built With
 
