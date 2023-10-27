@@ -1,14 +1,6 @@
-# Installation
-
-1. Run npm install under the root folder to install project dependencies.
-1. Run npm run start to start your server
-
-# website
-
-https://res-tracking-app-front-end.herokuapp.com/dashboard
-
-# features
-
+# Restaurant-Tracking-App
+[![Issues](https://img.shields.io/github/issues/Oscarlosg/Restaurant-Tracking-App)](https://github.com/Oscarlosg/Restaurant-Tracking-App/issues) [![Issues](https://img.shields.io/github/contributors/Oscarlosg/Restaurant-Tracking-App)](https://github.com/Oscarlosg/Restaurant-Tracking-App/graphs/contributors) 
+## Description
 1. The main focus of this application is to allow the restaurant managers easily manage their guests reservations. The main features include:
  1. Create: You can head to the top left side of the dashboard and click "New Reservation" which will prompt a screen that allows users to create a detailed reservation:
 ![New reservation page](https://github.com/Oscarlosg/Restaurant-Tacking-App/blob/main/front-end/app-screenshots/new-reservation.png)
@@ -32,3 +24,32 @@ Once the reservation at any table is done with their reservation you can click t
 ![create table](https://github.com/Oscarlosg/Restaurant-Tacking-App/blob/main/front-end/app-screenshots/new-table.png)
 Searching a Reservation by Phone Number: Upon clicking the search button on the top of the dashboard the user will be prompted to a page where they can input a phone number that will retreive and list all reservations associated with that number:
 ![search](https://github.com/Oscarlosg/Restaurant-Tacking-App/blob/main/front-end/app-screenshots/searching-reservation.png)
+
+## Contents
+* [Usage](#usage)
+* [Built With](#built-with)
+* [Questions](#questions)
+* [Credits](#credits)
+
+# Installation
+1. Run npm install under the root folder to install project dependencies.
+1. Run npm run start to start your server
+
+## Built With
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express.js
+* React
+* Jest
+* Knex
+  
+## Questions
+If you have any questions about the repo, please [open an issue](https://github.com/Oscarlosg/Restaurant-Tracking-App/issues) or contact me via email at oscarlosg14@gmail.com. You can find more of my work on my GitHub, [Oscarlosg](https://github.com/Oscarlosg/).
+  
+## Credits
+* [no](no)
+
+  
